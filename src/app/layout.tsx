@@ -25,16 +25,16 @@ export const metadata: Metadata = {
 	openGraph: {
 		images: [
 			{
-				url: "https://climatetechconnect.nl/img/meta/615x615.png",
+				url: "https://climatetechconnect.nl/img/meta/og_image_small.jpg",
 				width: 615,
 				height: 615,
-				type: "image/png",
+				type: "image/jpg",
 			},
 			{
-				url: "https://climatetechconnect.nl/img/meta/1200x627.png",
-				width: 1200,
-				height: 627,
-				type: "image/png",
+				url: "https://climatetechconnect.nl/img/meta/og_image_large.jpg",
+				width: 1400,
+				height: 732,
+				type: "image/jpg",
 			},
 		],
 	},
@@ -42,16 +42,16 @@ export const metadata: Metadata = {
 		card: "summary_large_image",
 		images: [
 			{
-				url: "https://climatetechconnect.nl/img/meta/615x615.png",
+				url: "https://climatetechconnect.nl/img/meta/og_image_small.jpg",
 				width: 615,
 				height: 615,
-				type: "image/png",
+				type: "image/jpg",
 			},
 			{
-				url: "https://climatetechconnect.nl/img/meta/1200x627.png",
-				width: 1200,
-				height: 627,
-				type: "image/png",
+				url: "https://climatetechconnect.nl/img/meta/og_image_large.jpg",
+				width: 1400,
+				height: 732,
+				type: "image/jpg",
 			},
 		],
 	},
@@ -63,7 +63,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en">
+		<html lang="en" prefix="og: http://ogp.me/ns#">
 			<body className={`${montserrat.variable} ${sometypeMono.variable}`}>
 				<Navigation />
 				<main>{children}</main>
