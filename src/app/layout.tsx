@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		images: [
 			{
-				url: "https://climatetechconnect.nl/img/meta/og_image_large.jpg",
+				url: "https://climatetechconnect.nl/img/meta/og_image.jpg",
 				width: 1400,
 				height: 732,
 				type: "image/jpg",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 		card: "summary_large_image",
 		images: [
 			{
-				url: "https://climatetechconnect.nl/img/meta/og_image_large.jpg",
+				url: "https://climatetechconnect.nl/img/meta/og_image.jpg",
 				width: 1400,
 				height: 732,
 				type: "image/jpg",
