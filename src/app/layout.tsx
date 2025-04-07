@@ -25,12 +25,6 @@ export const metadata: Metadata = {
 	openGraph: {
 		images: [
 			{
-				url: "https://climatetechconnect.nl/img/meta/og_image_small.jpg",
-				width: 615,
-				height: 615,
-				type: "image/jpg",
-			},
-			{
 				url: "https://climatetechconnect.nl/img/meta/og_image_large.jpg",
 				width: 1400,
 				height: 732,
@@ -41,12 +35,6 @@ export const metadata: Metadata = {
 	twitter: {
 		card: "summary_large_image",
 		images: [
-			{
-				url: "https://climatetechconnect.nl/img/meta/og_image_small.jpg",
-				width: 615,
-				height: 615,
-				type: "image/jpg",
-			},
 			{
 				url: "https://climatetechconnect.nl/img/meta/og_image_large.jpg",
 				width: 1400,
