@@ -5,6 +5,7 @@ import { Text } from "@/components/atoms/Text";
 import { Badge } from "@/components/atoms/Badge";
 import { Galaxy } from "@/svg/AnimatedGalaxy";
 import { Badge as FlagshipBadge } from "@/svg/Badge";
+import { Button } from "@/components/atoms/Button";
 
 type Props = {
 	event?: {
@@ -117,6 +118,18 @@ export const EventTile = ({ event }: Props) => {
 							</Text>
 						</div>
 					)}
+
+					<div className="flex items-center justify-end gap-2">
+						<Button
+							target="_blank"
+							className="bg-white lowercase"
+							href={event?.button.url}
+							disabled={!event?.button.url}
+							hasArrow
+						>
+							{event?.button.label}
+						</Button>
+					</div>
 				</div>
 			</article>
 		</li>

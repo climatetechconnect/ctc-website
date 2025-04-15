@@ -21,6 +21,7 @@ type Props = {
 	type?: "button" | "submit" | "reset";
 	disabled?: boolean;
 	hasArrow?: boolean;
+	target?: "_blank" | "_self";
 	children: React.ReactNode;
 	href?: string | { pathname: string };
 	onClick?: () => void;
@@ -30,6 +31,7 @@ type ButtonProps = {
 	className: Props["className"];
 	href?: Props["href"];
 	as: "button" | typeof Link;
+	target?: Props["target"];
 	type: Props["type"];
 	disabled: Props["disabled"];
 	onClick: Props["onClick"];
@@ -43,6 +45,7 @@ export const Button = ({
 	hasArrow = false,
 	children,
 	href,
+	target = "_self",
 	onClick,
 }: Props) => {
 	const styles = useMemo(() => {
@@ -63,7 +66,7 @@ export const Button = ({
 	};
 
 	if (href) {
-		props = { ...props, href, as: Link };
+		props = { ...props, href, as: Link, target };
 	}
 
 	return (
