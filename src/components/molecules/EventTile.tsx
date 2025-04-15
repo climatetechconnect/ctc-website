@@ -15,7 +15,10 @@ type Props = {
 		prefix: string;
 		title: string;
 		description: string;
-		image: string;
+		image: {
+			url: string;
+			alt: string;
+		};
 		date: {
 			year: number;
 			month: number;
@@ -90,7 +93,12 @@ export const EventTile = ({ event }: Props) => {
 				</header>
 				{event && (
 					<div className="relative h-22 w-full">
-						<Image src={event.image} alt={event.title} fill className="object-cover" />
+						<Image
+							src={event.image.url}
+							alt={event.image.alt || event.title}
+							fill
+							className="object-cover"
+						/>
 					</div>
 				)}
 

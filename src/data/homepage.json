@@ -58,7 +58,10 @@
 				"prefix": "CTS exclusive deepdive:",
 				"title": "War stories from the Dealroom",
 				"description": "with Philip de Roos (founder De Roos)",
-				"image": "/img/16.jpeg",
+				"image": {
+					"url": "/img/16.jpeg",
+					"alt": "War stories from the Dealroom"
+				},
 				"date": {
 					"year": 2025,
 					"month": 3,
@@ -81,7 +84,10 @@
 				"prefix": "Flagship event:",
 				"title": "Climate Tech Summit 2025",
 				"description": "Ghent (Belgium)",
-				"image": "/img/1.png",
+				"image": {
+					"url": "/img/1.png",
+					"alt": "Climate Tech Summit 2025"
+				},
 				"date": {
 					"year": 2025,
 					"month": 10,
@@ -104,7 +110,10 @@
 				"prefix": "Flagship event:",
 				"title": "CLIMATE TECH SUMMIT 2024",
 				"description": "Amsterdam (the Netherlands)",
-				"image": "/img/26.png",
+				"image": {
+					"url": "/img/26.png",
+					"alt": "Climate Tech Summit 2024"
+				},
 				"date": {
 					"year": 2022,
 					"month": 9,
@@ -127,7 +136,10 @@
 				"prefix": "CTC Pitchclub Series:",
 				"title": "Belgium Pitching @ Norrsken House",
 				"description": "Brussels (Belgium)",
-				"image": "/img/26.png",
+				"image": {
+					"url": "/img/26.png",
+					"alt": "Belgium Pitching @ Norrsken House"
+				},
 				"date": {
 					"year": 2025,
 					"month": 5,
