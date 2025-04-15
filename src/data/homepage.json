@@ -129,6 +129,32 @@
                     "url": "/",
                     "label": "read more"
                 }
+            },
+             {
+                "tags": [
+                    "early-stage startups",
+                    "investors"
+                ],
+                "isFlagship": false,
+                "color": "bg-blue-400",
+                "prefix": "CTC Pitchclub Series:",
+                "title": "Belgium Pitching @ Norrsken House",
+                "description": "Brussels (Belgium)",
+                "image": "/img/26.png",
+                "date": {
+                    "year": 2025,
+                    "month": 5,
+                    "day": 27
+                },
+                "location": {
+                    "place": "NORRSKEN HOUSE",
+                    "city": "Brussels",
+                    "country": "Belgium"
+                },
+                "button": {
+                    "url": "https://lu.ma/ff3nhf10",
+                    "label": "read more"
+                }
             }
         ]
     }
