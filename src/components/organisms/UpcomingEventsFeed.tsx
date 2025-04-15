@@ -23,20 +23,29 @@ export const UpcomingEventsFeed = () => {
 	const [activeTab, setActiveTab] = useState<number>(1);
 
 	const filteredEvents = useMemo(() => {
-		return homepage.events.event_tiles.filter((event) => {
-			const date = new Date(Date.UTC(event.date.year, event.date.month - 1, event.date.day));
-			const eventDateUnix = Math.floor(date.getTime() / 1000);
-			const todayUnix = Math.floor(
-				new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate()).getTime() /
-					1000,
-			);
-			if (activeTab === 1) {
-				return date.getFullYear() === 2025 && eventDateUnix > todayUnix;
-			} else if (activeTab === 2) {
-				return eventDateUnix < todayUnix;
-			}
-			return false;
-		});
+		return homepage.events.event_tiles
+			.filter((event) => {
+				const date = new Date(Date.UTC(event.date.year, event.date.month - 1, event.date.day));
+				const eventDateUnix = Math.floor(date.getTime() / 1000);
+				const todayUnix = Math.floor(
+					new Date(
+						new Date().getFullYear(),
+						new Date().getMonth(),
+						new Date().getDate(),
+					).getTime() / 1000,
+				);
+				if (activeTab === 1) {
+					return date.getFullYear() === 2025 && eventDateUnix > todayUnix;
+				} else if (activeTab === 2) {
+					return eventDateUnix < todayUnix;
+				}
+				return false;
+			})
+			.sort((a, b) => {
+				const dateA = new Date(Date.UTC(a.date.year, a.date.month - 1, a.date.day)).getTime();
+				const dateB = new Date(Date.UTC(b.date.year, b.date.month - 1, b.date.day)).getTime();
+				return dateA - dateB;
+			});
 	}, [activeTab]);
 
 	return (

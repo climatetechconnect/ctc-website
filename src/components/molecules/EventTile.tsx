@@ -55,7 +55,7 @@ export const EventTile = ({ event }: Props) => {
 					)}
 				</div>
 				{event?.isFlagship && (
-					<div className="absolute left-full top-14 flex h-20 w-20 -translate-x-3/4 -rotate-[25deg] items-center justify-center lg:h-24 lg:w-24 lg:-translate-x-1/2">
+					<div className="absolute left-full top-14 z-10 flex h-20 w-20 -translate-x-3/4 -rotate-[25deg] items-center justify-center lg:h-24 lg:w-24 lg:-translate-x-1/2">
 						<FlagshipBadge className="absolute left-0 top-0 w-full" />
 						<Text className="relative z-10 text-center font-sometype-mono text-2xs lowercase text-white lg:text-sm">
 							Flagship
