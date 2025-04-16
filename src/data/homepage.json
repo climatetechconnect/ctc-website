@@ -59,7 +59,7 @@
 				"title": "War stories from the Dealroom",
 				"description": "with Philip de Roos (founder De Roos)",
 				"image": {
-					"url": "/img/16.jpeg",
+					"url": "/img/events/2.png",
 					"alt": "War stories from the Dealroom"
 				},
 				"date": {
@@ -85,7 +85,7 @@
 				"title": "Climate Tech Summit 2025",
 				"description": "Ghent (Belgium)",
 				"image": {
-					"url": "/img/1.png",
+					"url": "/img/events/3.png",
 					"alt": "Climate Tech Summit 2025"
 				},
 				"date": {
@@ -111,7 +111,7 @@
 				"title": "CLIMATE TECH SUMMIT 2024",
 				"description": "Amsterdam (the Netherlands)",
 				"image": {
-					"url": "/img/26.png",
+					"url": "/img/events/4.png",
 					"alt": "Climate Tech Summit 2024"
 				},
 				"date": {
@@ -132,12 +132,12 @@
 			{
 				"tags": ["early-stage startups", "investors"],
 				"isFlagship": false,
-				"color": "bg-blue-400",
+				"color": "bg-pink-500",
 				"prefix": "CTC Pitchclub Series:",
 				"title": "Belgium Pitching @ Norrsken House",
 				"description": "Brussels (Belgium)",
 				"image": {
-					"url": "/img/26.png",
+					"url": "/img/events/1.png",
 					"alt": "Belgium Pitching @ Norrsken House"
 				},
 				"date": {
