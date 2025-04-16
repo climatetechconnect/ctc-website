@@ -47,7 +47,7 @@ export const EventTile = ({ event }: Props) => {
 			<article
 				className={`relative flex h-full w-full flex-col items-stretch justify-between gap-2 rounded-xl p-5 ${event?.color || "bg-gray-50"}`}
 			>
-				<div className="mb-3 flex flex-wrap items-start justify-start gap-2">
+				<div className="mb-2 flex flex-wrap items-start justify-start gap-2">
 					{event ? (
 						event.tags.map((tag, index) => <Badge key={index}>{tag}</Badge>)
 					) : (
