@@ -6,7 +6,6 @@ import { Heading } from "@/components/atoms/Heading";
 type Props = {
 	heading: string;
 	logos: {
-		id: number;
 		src: string;
 		alt?: string;
 		width: number;
@@ -24,8 +23,8 @@ export const LogosSection = ({ heading, logos }: Props) => {
 						{heading}
 					</Heading>
 					<ul className="flex flex-wrap items-center justify-around gap-12 sm:justify-between">
-						{logos.map(({ id, src, alt = "", width, height, href }) => (
-							<li key={id}>
+						{logos.map(({ src, alt = "", width, height, href }, index) => (
+							<li key={index}>
 								<Link href={href} target="_blank" className="transition-opacity hover:opacity-70">
 									<Image src={src} alt={alt} width={width} height={height} />
 								</Link>
