@@ -1,160 +1,186 @@
 {
-	"meta_title": "Climate tech community, events & resources | Climate Tech Connect Benelux",
-	"meta_description": "Welcome to Climate Tech Connect. Explore our initiatives, upcoming events, and how we are fostering innovation in climate technology.",
-	"hero": {
-		"title": "Climate tech community, events & resources",
-		"description": "We are the Benelux climate tech community",
-		"info": "Connect with +150 visionaires working on climate in Benelux",
-		"button": {
-			"label": "Become a member",
-			"url": "/community"
-		}
-	},
-	"logos": {
-		"title": "Our partners"
-	},
-	"features": {
-		"title": "What we do",
-		"description": "<b>CTC is a community</b> of climate tech innovators, founders, change-makers, stakeholders and investors in the Benelux region.<br/><br/><b>How CTC can help you?</b> We organize community <b>climate-focused</b> get-togethers & knowledge sharing activities; we host events ranging from intimate, exclusive meetups to large-scale conferences. Our services includes <b>AI-powered and manual investor-founder matchmaking</b>, access to a curated <b>sustainability</b> talent pool and consortia creation.<br/><br/>Against a backdrop of digital & AI age a <b>dedicated climate</b> community with a sense of shared purpose is poised to <b>scale breakthrough climate solutions</b> and drive real-world change.",
-		"tiles": [
-			{
-				"title": "Community",
-				"description": "Forge powerful partnerships within a community of top +150 climate minds of the Benelux",
-				"items": [
-					"climate tech summit",
-					"events",
-					"community",
-					"knowledge-sharing",
-					"resources",
-					"advisory"
-				],
-				"button": {
-					"label": "read more",
-					"url": "/community"
-				}
-			},
-			{
-				"title": "Services",
-				"description": "Find the best climate-tech talents & propel your company's growth leveraging on the knowledge capital of the community",
-				"items": [
-					"quality, manual founder-investor matchmaking",
-					"access to talent pool",
-					"consortia"
-				],
-				"button": {
-					"label": "read more",
-					"url": "/services"
-				}
-			}
-		]
-	},
-	"events": {
-		"title": "Upcoming events",
-		"event_tiles": [
-			{
-				"tags": ["founders", "scale-ups", "A/B stage"],
-				"isFlagship": false,
-				"color": "bg-green-500",
-				"prefix": "CTS exclusive deepdive:",
-				"title": "War stories from the Dealroom",
-				"description": "with Philip de Roos (founder De Roos)",
-				"image": {
-					"url": "/img/events/2.png",
-					"alt": "War stories from the Dealroom"
-				},
-				"date": {
-					"year": 2025,
-					"month": 3,
-					"day": 4
-				},
-				"location": {
-					"place": "De Roos office",
-					"city": "Amsterdam",
-					"country": "Netherlands"
-				},
-				"button": {
-					"url": "",
-					"label": "read more"
-				}
-			},
-			{
-				"tags": ["founders", "investors"],
-				"isFlagship": true,
-				"color": "bg-green-600",
-				"prefix": "Flagship event:",
-				"title": "Climate Tech Summit 2025",
-				"description": "Ghent (Belgium)",
-				"image": {
-					"url": "/img/events/3.png",
-					"alt": "Climate Tech Summit 2025"
-				},
-				"date": {
-					"year": 2025,
-					"month": 10,
-					"day": 9
-				},
-				"location": {
-					"place": "Wintercircus",
-					"city": "Ghent",
-					"country": "Belgium"
-				},
-				"button": {
-					"url": "",
-					"label": "read more"
-				}
-			},
-			{
-				"tags": ["founders", "investors"],
-				"isFlagship": true,
-				"color": "bg-blue-400",
-				"prefix": "Flagship event:",
-				"title": "CLIMATE TECH SUMMIT 2024",
-				"description": "Amsterdam (the Netherlands)",
-				"image": {
-					"url": "/img/events/4.png",
-					"alt": "Climate Tech Summit 2024"
-				},
-				"date": {
-					"year": 2022,
-					"month": 9,
-					"day": 22
-				},
-				"location": {
-					"place": "POSTHOORNKERK",
-					"city": "Amsterdam",
-					"country": "Netherlands"
-				},
-				"button": {
-					"url": "",
-					"label": "read more"
-				}
-			},
-			{
-				"tags": ["early-stage startups", "investors"],
-				"isFlagship": false,
-				"color": "bg-green-100",
-				"prefix": "CTC Pitchclub Series:",
-				"title": "Belgium Pitching @ Norrsken House",
-				"description": "Brussels (Belgium)",
-				"image": {
-					"url": "/img/events/1.png",
-					"alt": "Belgium Pitching @ Norrsken House"
-				},
-				"date": {
-					"year": 2025,
-					"month": 5,
-					"day": 27
-				},
-				"location": {
-					"place": "NORRSKEN HOUSE",
-					"city": "Brussels",
-					"country": "Belgium"
-				},
-				"button": {
-					"url": "https://lu.ma/ff3nhf10",
-					"label": "read more"
-				}
-			}
-		]
-	}
+  "meta_title": "Climate tech community, events & resources | Climate Tech Connect Benelux",
+  "meta_description": "Welcome to Climate Tech Connect. Explore our initiatives, upcoming events, and how we are fostering innovation in climate technology.",
+  "hero": {
+    "title": "Climate tech community, events & resources",
+    "description": "We are the Benelux climate tech community",
+    "info": "Connect with +150 visionaires working on climate in Benelux",
+    "button": {
+      "label": "Become a member",
+      "url": "/community"
+    }
+  },
+  "logos": {
+    "title": "Our partners"
+  },
+  "features": {
+    "title": "What we do",
+    "description": "<b>CTC is a community</b> of climate tech innovators, founders, change-makers, stakeholders and investors in the Benelux region.<br/><br/><b>How CTC can help you?</b> We organize community <b>climate-focused</b> get-togethers & knowledge sharing activities; we host events ranging from intimate, exclusive meetups to large-scale conferences. Our services includes <b>AI-powered and manual investor-founder matchmaking</b>, access to a curated <b>sustainability</b> talent pool and consortia creation.<br/><br/>Against a backdrop of digital & AI age a <b>dedicated climate</b> community with a sense of shared purpose is poised to <b>scale breakthrough climate solutions</b> and drive real-world change.",
+    "tiles": [
+      {
+        "title": "Community",
+        "description": "Forge powerful partnerships within a community of top +150 climate minds of the Benelux",
+        "items": [
+          "climate tech summit",
+          "events",
+          "community",
+          "knowledge-sharing",
+          "resources",
+          "advisory"
+        ],
+        "button": {
+          "label": "read more",
+          "url": "/community"
+        }
+      },
+      {
+        "title": "Services",
+        "description": "Find the best climate-tech talents & propel your company's growth leveraging on the knowledge capital of the community",
+        "items": [
+          "quality, manual founder-investor matchmaking",
+          "access to talent pool",
+          "consortia"
+        ],
+        "button": {
+          "label": "read more",
+          "url": "/services"
+        }
+      }
+    ]
+  },
+  "events": {
+    "title": "Upcoming events",
+    "event_tiles": [
+      {
+        "tags": ["founders", "scale-ups", "A/B stage"],
+        "isFlagship": false,
+        "color": "bg-green-500",
+        "prefix": "CTS exclusive deepdive:",
+        "title": "War stories from the Dealroom",
+        "description": "with Philip de Roos (founder De Roos)",
+        "image": {
+          "url": "/img/events/2.png",
+          "alt": "War stories from the Dealroom"
+        },
+        "date": {
+          "year": 2025,
+          "month": 3,
+          "day": 4
+        },
+        "location": {
+          "place": "De Roos office",
+          "city": "Amsterdam",
+          "country": "Netherlands"
+        },
+        "button": {
+          "url": "",
+          "label": "read more"
+        }
+      },
+      {
+        "tags": ["founders", "investors"],
+        "isFlagship": true,
+        "color": "bg-blue-400",
+        "prefix": "Flagship event:",
+        "title": "CLIMATE TECH SUMMIT 2024",
+        "description": "Amsterdam (the Netherlands)",
+        "image": {
+          "url": "/img/events/4.png",
+          "alt": "Climate Tech Summit 2024"
+        },
+        "date": {
+          "year": 2022,
+          "month": 9,
+          "day": 22
+        },
+        "location": {
+          "place": "POSTHOORNKERK",
+          "city": "Amsterdam",
+          "country": "Netherlands"
+        },
+        "button": {
+          "url": "",
+          "label": "read more"
+        }
+      },
+      {
+        "tags": ["early-stage startups", "investors"],
+        "isFlagship": false,
+        "color": "bg-green-100",
+        "prefix": "CTC Pitchclub Series:",
+        "title": "Belgium Pitching @ Norrsken House",
+        "description": "Brussels (Belgium)",
+        "image": {
+          "url": "/img/events/1.png",
+          "alt": "Belgium Pitching @ Norrsken House"
+        },
+        "date": {
+          "year": 2025,
+          "month": 5,
+          "day": 27
+        },
+        "location": {
+          "place": "NORRSKEN HOUSE",
+          "city": "Brussels",
+          "country": "Belgium"
+        },
+        "button": {
+          "url": "https://lu.ma/ff3nhf10",
+          "label": "read more"
+        }
+      },
+      {
+        "tags": ["founders", "investors"],
+        "isFlagship": false,
+        "color": "bg-green-600",
+        "prefix": "Exclusive DSO Dinner:",
+        "title": "Emerging Technologies for Future Proof Grids",
+        "description": "Antwerp (Belgium)",
+        "image": {
+          "url": "/img/events/3.png",
+          "alt": "Emerging Technologies for Future Proof Grids"
+        },
+        "date": {
+          "year": 2025,
+          "month": 6,
+          "day": 11
+        },
+        "location": {
+          "place": "DÔME Restaurant",
+          "city": "Antwerp",
+          "country": "Belgium"
+        },
+        "button": {
+          "url": "https://lu.ma/u6qoj1ml",
+          "label": "read more"
+        }
+      },
+      {
+        "tags": ["founders", "investors"],
+        "isFlagship": false,
+        "color": "bg-blue-400",
+        "prefix": "Climate Tech Deck:",
+        "title": "Scaling Impact in the Port Environment",
+        "description": "Rotterdam (The Netherlands)",
+        "image": {
+          "url": "/img/events/3.png",
+          "alt": "Scaling Impact in the Port Environment"
+        },
+        "date": {
+          "year": 2025,
+          "month": 7,
+          "day": 1
+        },
+        "location": {
+          "place": "RDM",
+          "city": "Rotterdam",
+          "country": "The Netherlands"
+        },
+        "button": {
+          "url": "https://lu.ma/oeg7sdhd",
+          "label": "read more"
+        }
+      }
+    ]
+  }
 }
