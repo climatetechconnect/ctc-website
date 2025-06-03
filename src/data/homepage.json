@@ -111,7 +111,7 @@
         "title": "Belgium Pitching @ Norrsken House",
         "description": "Brussels (Belgium)",
         "image": {
-          "url": "/img/team/33.png",
+          "url": "/img/33.png",
           "alt": "Belgium Pitching @ Norrsken House"
         },
         "date": {
@@ -130,14 +130,14 @@
         }
       },
       {
-        "tags": ["founders", "investors"],
+        "tags": ["DSOs", "founders", "investors"],
         "isFlagship": false,
         "color": "bg-green-600",
         "prefix": "Exclusive DSO Dinner:",
         "title": "Emerging Technologies for Future Proof Grids",
         "description": "Antwerp (Belgium)",
         "image": {
-          "url": "/img/team/34.png",
+          "url": "/img/34.png",
           "alt": "Emerging Technologies for Future Proof Grids"
         },
         "date": {
@@ -163,7 +163,7 @@
         "title": "Scaling Impact in the Port Environment",
         "description": "Rotterdam (The Netherlands)",
         "image": {
-          "url": "/img/team/35.png",
+          "url": "/img/35.png",
           "alt": "Scaling Impact in the Port Environment"
         },
         "date": {
