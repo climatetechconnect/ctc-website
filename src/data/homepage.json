@@ -180,6 +180,32 @@
           "url": "https://lu.ma/oeg7sdhd",
           "label": "read more"
         }
+      },
+      {
+        "tags": ["corporates", "founders", "investors"],
+        "isFlagship": true,
+        "color": "bg-green-600",
+        "prefix": "CTC Impact Dinner",
+        "title": "Action Tables",
+        "description": "Amsterdam (Netherlands)",
+        "image": {
+          "url": "/img/34.png",
+          "alt": "CTC Impact Dinner"
+        },
+        "date": {
+          "year": 2025,
+          "month": 11,
+          "day": 17
+        },
+        "location": {
+          "place": "Posthoornkerk",
+          "city": "Amsterdam",
+          "country": "Netherlands"
+        },
+        "button": {
+          "url": "https://luma.com/io42ydgr",
+          "label": "read more"
+        }
       }
     ]
   }
