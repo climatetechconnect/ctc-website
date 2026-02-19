@@ -206,6 +206,32 @@
           "url": "https://luma.com/io42ydgr",
           "label": "read more"
         }
+      },
+      {
+        "tags": ["corporates", "founders", "investors"],
+        "isFlagship": true,
+        "color": "bg-green-600",
+        "prefix": "Climate Tech Summit 2026",
+        "title": "Building Resilience",
+        "description": "Antwerp (Belgium)",
+        "image": {
+          "url": "/img/34.png",
+          "alt": "Climate Tech Summit"
+        },
+        "date": {
+          "year": 2026,
+          "month": 10,
+          "day": 6
+        },
+        "location": {
+          "place": "TBD",
+          "city": "TBD",
+          "country": "TBD"
+        },
+        "button": {
+          "url": "",
+          "label": "read more"
+        }
       }
     ]
   }
