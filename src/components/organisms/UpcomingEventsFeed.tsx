@@ -11,7 +11,7 @@ import homepage from "@/data/homepage.json";
 const tabs = [
 	{
 		id: 1,
-		label: "2025",
+		label: "2026",
 	},
 	{
 		id: 2,
