@@ -189,7 +189,7 @@
         "title": "Action Tables",
         "description": "Amsterdam (Netherlands)",
         "image": {
-          "url": "/img/34.png",
+          "url": "/img/36.png",
           "alt": "CTC Impact Dinner"
         },
         "date": {
@@ -210,12 +210,12 @@
       {
         "tags": ["corporates", "founders", "investors"],
         "isFlagship": true,
-        "color": "bg-green-600",
+        "color": "bg-green-100",
         "prefix": "Climate Tech Summit 2026",
         "title": "Building Resilience",
         "description": "Antwerp (Belgium)",
         "image": {
-          "url": "/img/34.png",
+          "url": "/img/37.png",
           "alt": "Climate Tech Summit"
         },
         "date": {
