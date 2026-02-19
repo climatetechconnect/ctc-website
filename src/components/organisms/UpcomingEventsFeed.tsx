@@ -35,7 +35,7 @@ export const UpcomingEventsFeed = () => {
 					).getTime() / 1000,
 				);
 				if (activeTab === 1) {
-					return date.getFullYear() === 2025 && eventDateUnix > todayUnix;
+					return date.getFullYear() === 2026 && eventDateUnix > todayUnix;
 				} else if (activeTab === 2) {
 					return eventDateUnix < todayUnix;
 				}
